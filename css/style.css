@@ -1,0 +1,372 @@
+:root {
+    --black-color: #000000;
+    --blue-color: #6600FF;
+    --purple-color: #9832FF;
+    --skyblue-color: #56C9DB;
+    --orange-color: #FF9934;
+    --lightorange-color: #FFCC9A;
+    --bg-color: #E4E3E6;
+    --border: #707070;
+}
+body {
+    padding: 0;
+    margin: 0;
+    font-size: 1em;
+    background-color: #F3F1F1;
+    font-family: 'Ubuntu', sans-serif;
+}
+.dcreats-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.dcreats-header .bg-img {
+    height: 115px;
+    z-index: 0;
+}
+.dcreats-header .brand-logo img {
+    height: 115px;
+   
+}
+.header-text {
+    position: relative;
+}
+.dcreats-header .we-engage {
+    color: black;
+    font-size: 2em;
+    font-weight: 300;
+    margin-right: -92PX;
+    z-index: 1;
+    position: relative;
+}
+
+.main-text{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 1.4em;
+    color: var(--border);
+}
+.bold-text {
+    font-weight: 800 !important;
+}
+/* hero section */ 
+.details-section {
+    padding-top: 1.5em;
+}
+.details-section .details {
+    border-top: 1px solid var(--border);
+    padding: 2.5em 0;
+}
+.hero-section .lets-talk {
+    display: flex;
+}
+.hero-section .icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+.hero-section img {
+    width: 30%;
+}
+.main-heading {
+    font-size: 2em;
+    margin-right: 0.3em;
+    font-weight: 300;
+    color: var(--black-color);
+}
+.main-heading.blue {
+    color: var(--blue-color);
+}
+.main-heading.sky-blue {
+    color: var(--skyblue-color);
+}
+.main-heading.orange {
+    color: var(--orange-color);
+}
+.hero-section .lets-talk-btn {
+    background-color: var(--black-color);
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    border: none;
+    padding: 0.1em 1.4em;
+    font-weight: 500;
+    display: block;
+    font-size: 1.4em;
+    margin-left: auto;
+}
+.hero-section .lets-talk-btn.btn-2 {
+    margin-left: 0;
+    display: none;
+}
+/* What we do section */
+.section-number {
+    font-size: 2em;
+    background-color: var(--bg-color);
+    padding: 0.4em 0.7em;
+    font-weight: 600;
+    border-radius: 50%;
+    margin-right: 0.3em;
+}
+.colors {
+    margin-top: 2.8em;
+    display: flex;
+}
+.color-box {
+    height: 15em;
+}
+.color-box.black {
+    background-color: var(--black-color);
+    width: 22em;
+}
+.color-box.blue {
+    background-color: var(--blue-color);
+    width: 18em;
+}
+.color-box.purple {
+    background-color: var(--purple-color);
+    width: 14em;
+}
+.color-box.sky-blue {
+    background-color: var(--skyblue-color);
+    width: 9em;
+}
+.color-box.orange {
+    background-color: var(--orange-color);
+    width: 8em;
+}
+.color-box.light-orange {
+    background-color: var(--lightorange-color);
+    width: 6em;
+}
+.what-we-do-section .box {
+    height: 3em;
+    width: 3em;
+    margin-right: 0.7em;
+}
+.what-we-do-section .box.black {
+    background-color: var(--black-color);
+}
+.what-we-do-section .box.blue {
+    background-color: var(--blue-color);
+}
+.what-we-do-section .box.purple {
+    background-color: var(--purple-color);
+}
+.what-we-do-section .box.skyblue {
+    background-color: var(--skyblue-color);
+}
+.what-we-do-section .box.orange {
+    background-color: var(--orange-color);
+}
+.what-we-do-section .box.lightorange {
+    background-color: var(--lightorange-color);
+}
+.what-we-do-section .boxs {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2.5em;
+}
+.boxs .box-text {
+    font-weight: 300;
+    line-height: 1.1em;
+}
+/* How we do section */
+.how-we-do-section .box-images {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    margin-top: 3em;
+    flex-wrap: wrap;
+}
+.box-images .small-img {
+    height: 120px;
+}
+.box-images .small-img-2 {
+    height: 40px;
+}
+.box-images .img-text {
+    margin-top: 2.5em;
+    text-align: center;
+    border-bottom: 2px solid black;
+    padding-bottom: 0.5em;
+}
+.box-images .vertical {
+    display: flex;
+}
+/* What we did section */
+.my-light-box .lightbox-img {
+    margin-bottom: 2em;
+}
+
+
+/* we worked for section */
+.we-worked-for-section .worked-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4.5em 1.5em;
+    width: 100%;
+}
+.we-worked-for-section .col-md-3 {
+    display: flex;
+}
+.we-worked-for-section .worked-box.blue {
+    background-color: var(--blue-color);
+}
+.we-worked-for-section .worked-box.purple{
+    background-color: var(--purple-color);
+}
+.we-worked-for-section .worked-box.skyblue{
+    background-color: var(--skyblue-color);
+} 
+.we-worked-for-section .worked-box.purple{
+    background-color: var(--purple-color);
+}
+.we-worked-for-section .worked-box.gray {
+    background-color: #707070;
+}
+.we-worked-for-section .worked-box.pink {
+    background-color: #FF34CD;
+}
+.we-worked-for-section .worked-box.green {
+    background-color: #7DDC8F;
+}
+.we-worked-for-section .worked-box.orange {
+    background-color: #FF9934;
+}
+.we-worked-for-section .worked-box.light-orange {
+    background-color: #FFCC9A
+}
+.we-worked-for-section .worked-box div {
+    color: white;
+    font-size: 1.2em;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1.2;
+}
+/* about section */
+.about-section .about {
+    display: flex;
+    align-items: center;
+}
+.about-section .about-logo {
+    display: flex;
+    align-items: center;
+}
+.about-section .about-logo .main-heading {
+    margin-bottom: -7px;
+}
+.about-section .about-logo img {
+    height: 60px;
+}
+.about-section .about-details .main-text {
+    color: var(--black-color);
+}
+/* contact section */
+.contact-section .contact-input {
+    border: 1px solid #707070;
+    box-shadow: none;
+    padding: 0.2em 1em;
+}
+.contact-section label {
+    color: var(--black-color);
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 2px;
+    font-weight: 500;
+}
+.contact-section textarea {
+    border: 1px solid #707070;
+    resize: none;
+}
+.contact-section .form-btn {
+    color: white;
+    padding: 0.2em 2em;
+    border: none;
+    background-color: var(--blue-color);
+    border-radius: 3px;
+    font-family: 'Roboto', sans-serif;
+    outline: none;
+    cursor: pointer;
+}
+.contact-section .contact-img {
+    height: 21px;
+}
+.contact-section .icon-bg {
+    background-color: var(--skyblue-color);
+    display: inline-block;
+    height: 3em;
+    width: 3em;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact-section .address {
+    display: flex;
+    align-items: center;
+}
+.contact-section .contact-text {
+    font-weight: 400;
+    text-decoration: none;
+    color: var(--black-color);
+    margin-left: 0.6em;
+}
+.contact-section .equal-sign {
+    height: 15px;
+    margin: 0 1em;
+}
+.contact-section .icon-bg.in {
+    background-color: #007AB8;
+}
+.contact-section .icon-bg.fb {
+    background-color: #3B5997
+}
+.contact-section .youtube-img {
+    height: 50px;
+}
+.contact-section .address-link {
+    display: flex;
+    align-items: center;
+    line-height: 1.2;
+    margin-top: 3em;
+}
+.contact-section .add {
+    color: var(--black-color);
+    font-size: 0.8em;
+
+}
+/* Footer */
+.footer-text {
+    color: var(--black-color);
+    font-weight: 500;
+}
+/* Media Queries */
+@media (min-width: 1000px) {
+ .container {
+    max-width: 1000px;
+ }
+}
+@media (max-width: 768px){
+   .what-we-do-section .box-text {
+        display: flex;
+        margin-left: 1em;
+    }
+    .what-we-do-section .box {
+        height: 1.6em;
+        width: 7em;
+    }
+    .hero-section .lets-talk-btn.btn-1 {
+        display: none;
+    }
+    .hero-section .lets-talk-btn.btn-2 {
+        display: block;
+    }
+    .vertical {
+        display: flex;
+        flex-direction: column;
+    }
+}
